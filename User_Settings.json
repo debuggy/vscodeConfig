@@ -4,7 +4,6 @@
     "vim.easymotion": true,
     "vim.sneak": true,
     "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": false,
     "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
