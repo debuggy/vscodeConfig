@@ -4,52 +4,52 @@ User settings for VSCode
 A get started guide for quick warming up when newly installed vscode.
 
 ## Necessary Extensions
-- Python
+- **Python**
 
   Official [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) of vscode.
   
-- Vim
+- **Vim**
 
   Edit in [vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) pattern.
 
-- vscode-icons
+- **vscode-icons**
   
   Change [icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) in file explorer.
 
-- TSLint/ESLint
+- **TSLint/ESLint**
 
   Ts/js code style checking.
 
 ## Optional Extensions
-- Prettify JSON
+- **Prettify JSON**
 
   Format json files.
 
-- XML Tools
+- **XML Tools**
 
   Format XML files.
 
-- One Dark Pro
+- **One Dark Pro**
 
   The most popular color scheme in vscode. (Although I have changed the color scheme to default dark+)
 
-- Swagger Viewer
+- **Swagger Viewer**
   
   View swagger file in vscode when designing REST API.
 
-- SVG Viewer
+- **SVG Viewer**
 
   View SVG file in vscode. The simplest way to view SVG file if you didn't install any software to view SVG file.
 
-- hexdump for VSCode
+- **hexdump for VSCode**
 
   Display a specified file in hexadecimal. Useful when you want to check the file encoding.
 
-- EditorConfig for VS Code
+- **EditorConfig for VS Code**
 
   [EditorConfig](https://editorconfig.org/) for VSCode. It will override user/workspace settings with settings found in .editorconfig files.
 
-- GitLens
+- **GitLens**
 
   A better git tool for VSCode. Actually I seldom used this extension even though it does have powerful functions. I prefer use git cli commands instead.
 
