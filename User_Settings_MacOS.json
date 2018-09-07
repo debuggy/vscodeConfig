@@ -1,17 +1,10 @@
 {
-    "extensions.ignoreRecommendations": true,
     "window.zoomLevel": 1,
     "vim.easymotion": true,
     "vim.sneak": true,
     "vim.incsearch": true,
     "vim.useCtrlKeys": false,
     "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j","j"],
-            "after": ["<Esc>"]
-        }
-    ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["<leader>","d"],
@@ -28,7 +21,7 @@
 
         },
         {
-            "before":["<C-n>"],
+            "before":["<leader>", "n"],
             "after":[],
             "commands": [
                 {
@@ -54,8 +47,8 @@
         "suppressShowKeyBindingsNotice": true
     },
     "workbench.statusBar.feedback.visible": false,
-    "editor.fontFamily": "Consolas",
-    "editor.fontSize": 15,
+    "editor.fontFamily": "monospace",
+    "editor.fontSize": 14,
     "files.exclude": {
       "**/.git": false,
       "**/.svn": true,

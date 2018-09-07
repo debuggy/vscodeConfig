@@ -16,10 +16,6 @@ A get started guide for quick warming up when newly installed vscode.
   
   Change [icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) in file explorer.
 
-- **TSLint/ESLint**
-
-  Ts/js code style checking.
-
 ## Optional Extensions
 - **Prettify JSON**
 
@@ -52,6 +48,11 @@ A get started guide for quick warming up when newly installed vscode.
 - **GitLens**
 
   A better git tool for VSCode. Actually I seldom used this extension even though it does have powerful functions. I prefer use git cli commands instead.
+
+- **TSLint**
+
+  Typescript code style checking. **Note**: there is an alternative plugin [tslint-language-service](https://github.com/angelozerr/tslint-language-service) for tslint. If you use the plugin, you should better NOT install this extension.
+
 
 - To be added
 

@@ -1,0 +1,59 @@
+{
+    "window.zoomLevel": 1,
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useCtrlKeys": false,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>","d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before": ["<leader>", "v"],
+            "after": ["<C-v>"]
+
+        },
+        {
+            "before": ["<leader>", "r"],
+            "after": ["<C-r>"]
+
+        },
+        {
+            "before":["<leader>", "n"],
+            "after":[],
+            "commands": [
+                {
+                    "command": ":nohl"
+                }
+            ]
+         }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys":{
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "git.autofetch": true,
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "files.associations": {
+        "*.runconfig": "yaml",
+        "*.compute": "yaml"
+    },
+    "workbench.editor.enablePreview": true,
+    "git.enableSmartCommit": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.statusBar.feedback.visible": false,
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 15,
+    "files.exclude": {
+      "**/.git": false,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true
+    }
+}
