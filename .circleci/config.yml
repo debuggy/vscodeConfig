@@ -1,8 +1,11 @@
 version: 2
 jobs:
-  build:
+  build test:
     docker:
       - image: debian:stretch
+    branches:
+      only:
+        - master
     steps:
       - checkout
       - run:
