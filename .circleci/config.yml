@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  build test:
+  build:
     docker:
       - image: debian:stretch
     steps:
@@ -11,3 +11,11 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+  test:
+    docker:
+      - image: debian:stretch
+    steps:
+      - checkout
+      - run:
+          name: Test
+          command: echo test
