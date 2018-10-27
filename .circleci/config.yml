@@ -6,6 +6,7 @@ jobs:
     branches:
       only:
         - master
+        - circleci-test
     steps:
       - checkout
       - run:
