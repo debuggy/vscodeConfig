@@ -1,4 +1,5 @@
 # vscodeConfig
+[![CircleCI](https://circleci.com/gh/debuggy/vscodeConfig.svg?style=svg)](https://circleci.com/gh/debuggy/vscodeConfig)
 User settings for VSCode
 
 A get started guide for quick warming up when newly installed vscode.
