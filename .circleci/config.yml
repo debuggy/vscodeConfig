@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Greeting
-          command: echo Hello, world.
+          command: echo Circle ci test.
       - run:
           name: Print the Current Time
           command: date
