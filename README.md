@@ -6,7 +6,7 @@ User settings for VSCode
 
 A get started guide for quick warming up when newly installed vscode.
 
-## Necessary Extensions
+## Recommandations
 - **Python**
 
   Official [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) of vscode.
@@ -19,14 +19,23 @@ A get started guide for quick warming up when newly installed vscode.
   
   Change [icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons) in file explorer.
 
-## Optional Extensions
-- **Prettify JSON**
+  
+- **EditorConfig for VS Code**
 
-  Format json files.
+  [EditorConfig](https://editorconfig.org/) for VSCode. It will override user/workspace settings with settings found in .editorconfig files. The extension is really useful for cooperative developing!
+  
+- **StandardJS for VS Code**
 
-- **XML Tools**
+  [StandardJS](https://github.com/standard/standard) is a javascript linter which make developing simple and standard. Recommend if you use javascript.
 
-  Format XML files.
+## Options
+- ~~**Prettify JSON**~~
+
+  ~~Format json files.~~ VScode now have internal format support, no need for this extension in general.
+
+- ~~**XML Tools**~~
+
+  ~~Format XML files.~~ VScode now have internal format support, no need for this extension in general. Generally you should consider json or yaml as config file instead of XML.
 
 - **One Dark Pro**
 
@@ -44,9 +53,6 @@ A get started guide for quick warming up when newly installed vscode.
 
   Display a specified file in hexadecimal. Useful when you want to check the file encoding.
 
-- **EditorConfig for VS Code**
-
-  [EditorConfig](https://editorconfig.org/) for VSCode. It will override user/workspace settings with settings found in .editorconfig files.
 
 - **GitLens**
 
