@@ -4,11 +4,7 @@
 
 :warning: The setting file in this repo are deprecated since I have used [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) to sync vscode settings. You could check my settings files from [gist](https://gist.github.com/debuggy/ff2b750a7e126bcddac13c4d375f1834).
 
-User settings for VSCode
-
-A get started guide for quick warming up when newly installed vscode.
-
-## Recommandations
+## VSCode Extension Recommandations
 - **Python**
 
   Official [python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) of vscode.
@@ -30,7 +26,7 @@ A get started guide for quick warming up when newly installed vscode.
 
   [StandardJS](https://github.com/standard/standard) is a javascript linter which make developing simple and standard. Recommend if you use javascript.
 
-## Options
+## VSCode Extension Optional
 - ~~**Prettify JSON**~~
 
   ~~Format json files.~~ VScode now have internal format support, no need for this extension in general.
