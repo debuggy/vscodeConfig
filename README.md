@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/debuggy/vscodeConfig.svg?style=svg)](https://circleci.com/gh/debuggy/vscodeConfig)
 
-[Notice] The setting file in this repo are deprecated since I have used [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) to sync vscode settings. You could check my settings files from [gist](https://gist.github.com/debuggy/ff2b750a7e126bcddac13c4d375f1834).
+:warning: The setting file in this repo are deprecated since I have used [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) to sync vscode settings. You could check my settings files from [gist](https://gist.github.com/debuggy/ff2b750a7e126bcddac13c4d375f1834).
 
 User settings for VSCode
 
