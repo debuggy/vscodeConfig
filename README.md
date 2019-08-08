@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/debuggy/vscodeConfig.svg?style=svg)](https://circleci.com/gh/debuggy/vscodeConfig)
 
+[Notice] The setting file in this repo are deprecated since I have used [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) to sync vscode settings. You could check my settings files from [gist](https://gist.github.com/debuggy/ff2b750a7e126bcddac13c4d375f1834).
+
 User settings for VSCode
 
 A get started guide for quick warming up when newly installed vscode.
@@ -63,9 +65,7 @@ A get started guide for quick warming up when newly installed vscode.
   Typescript code style checking. **Note**: there is an alternative plugin [tslint-language-service](https://github.com/angelozerr/tslint-language-service) for tslint. If you use the plugin, you should better NOT install this extension.
 
 
-- To be added
-
-## User setting file
+## User setting file [DEPRECATED]
   The [User settings config](./User_Settings.json) file could enable user to quickly warm up with a new vscode.
 
   Currently it mainly contains the editing config for vim extension and will be included more configs further.
